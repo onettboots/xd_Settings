@@ -40,6 +40,13 @@
      
     </PreferenceCategory>
 
+    <!-- Screen Off UDFPS -->
+    <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+        android:key="screen_off_udfps_enabled"
+        android:title="@string/screen_off_udfps_title"
+        android:summary="@string/screen_off_udfps_summary"
+        android:persistent="true" />
+
     <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
         android:key="qstile_requires_unlocking"
         android:title="@string/qstile_requires_unlocking_title"
